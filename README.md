@@ -48,6 +48,8 @@ USBメモリ/
 
 WindowsでUSBメモリが `E:` ドライブの場合は `E:\rudolf_fw\rudolf.bin` となります。4号機でのUSBマウント先では `/mnt/sda1/rudolf_fw/rudolf.bin` に相当します。USB直下に `rudolf.bin` を置くのではありません。
 
+作成したUSBメモリをターミナル６に接続し、LEVELボタンを5秒以上長押ししてください。Status LED が点滅すれば書き換え開始です。
+
 `rudolf.key` はSSH接続に使用する秘密鍵です。USBメモリには入れず、接続元PCで安全に保管してください。
 
 検証ではUSBメモリを使用する本体の更新機能によりV5を導入しました。更新中の電源断やUSBメモリの取り外しは避けてください。
